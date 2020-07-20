@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Anne's Animal Barn</title>
+	<link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/base.css">	
+</head>
+<body>
+	
+	<header class="main-header">
+		<h1 class="name"><a href="#">Happy Text</a></h1>
+		<ul class="main-nav">
+			<li><a href="#primary">Sweet Dee</a></li>
+			<li><a href="#secondary">Dennis</a></li>
+			<li><a href="#third">Mac</a></li>
+			<li><a href="#fourth">Artie</a></li>
+		</ul>
+	</header><!--/.main-header-->   
+
+	<div class="banner">
+		<img class="logo" src="pics/main.jpg" alt="image of a barn" onclick="goAdv(activity, pet)">
+		<h1 class="headline">Anne's Animal Barn</h1>
+		<span class="tagline">welcome to your happy place</span>
+		<br>
+
+			<!--/.drop down selectors-->   
+			<label for="activity">What would you like to do?</label>
+			<select name="activity" id="activity">
+			<option value="1">Go for a Ride</option>
+			<option value="2">Go for a Walk</option>
+			<option value="3">Give a Bath</option>		
+			</select>
+			<br>
+
+			<label for="pet">Who would you like to choose?</label>
+			<select name="pet" id="pet">
+			<option value="1">Sweet Dee</option>
+			<option value="2">Dennis</option>
+			<option value="3">Mac</option>	
+			<option value="4">Artie</option>	
+			</select>
+
+	</div><!--/.banner-->
+	
+	<div class="row">		
+		<div class="col" id="primary">
+			<a name="SweetDee"></a>
+			<img src="pics/SweetDee.jpg" alt="black and tan doggo">
+			<h2>Sweet Dee</h2>
+			<p><strong>DOB: </strong>June 6, 2015</p>
+			<p><strong>Favorite Toy: </strong>Green Ball</p>
+			<!-- <p><strong>Nickname(s): </strong>Baby Dee, Mama Dee, DeAndra, Deborah, Deb, Debbie</p> -->
+		
+		</div><!--/.primary-->
+		
+		<div class="col" id="secondary">
+			<a name="Dennis"></a>
+			<img src="pics/Dennis.jpg" alt="tan doggo">
+			<h2>Dennis</h2>
+			<p><strong>DOB: </strong>June 6, 2015</p>
+			<p><strong>Favorite Toy: </strong>Deflated Soccer Ball</p>
+			<!-- <p><strong>Nickname(s): </strong>Big Boy, Denald, B-Bo</p> -->
+			
+		</div><!--/.secondary-->
+
+		<div class="col" id="third">
+			<a name="Mac"></a>
+			<img src="pics/Mac.jpg" alt="black doggo">
+			<h2>Mac</h2>
+			<p><strong>DOB: </strong>November 9, 2019</p>
+			<p><strong>Favorite Toy: </strong>Sticks and Bones</p>
+			<!-- <p><strong>Nickname(s): </strong>Cheese, Queso, Perrita, Quesita</p> -->
+		
+		</div><!--/.third-->
+
+		<div class="col" id="fourth">
+			<a name="Artie"></a>
+			<img src="pics/Artie.jpg" alt="black and tan cat">
+			<h2>Artemis</h2>
+			<p><strong>DOB: </strong>unknown</p>
+			<p><strong>Favorite Toy: </strong>Anything I can Fit Inside</p>
+			<!-- <p><strong>Nickname(s): </strong>Artie</p> -->
+		
+		</div><!--/.fourth-->
+	</div>
+	
+	<footer class="main-footer">
+		<span>&copy;You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it. Let's get wild today.</span>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
