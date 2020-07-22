@@ -2,15 +2,6 @@
   Base Element Styles
 ==================================== */
 
-
-.row {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	width: auto;
-	justify-content: center;
-	}
-
 body {
 	font-family: 'Lily Script One', cursive;
 	line-height: 1.6;
@@ -99,6 +90,14 @@ img {
 	margin-top: 30px;
 }
 
+.row {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	width: auto;
+	justify-content: center;
+	}
+	
 /* ---- Page Elements ---- */
 
 .logo {
