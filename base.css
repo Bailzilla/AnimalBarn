@@ -15,8 +15,7 @@ ul {
 	list-style: none;
 }
 p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
+	line-height: 10px;
 }
 h2,
 h3,
@@ -35,7 +34,7 @@ img {
 	height: 400px;
 	width: 300px;
 	border: solid #241715;
-	border-radius: 15%;
+	border-radius: 20%;
 }
 
 /* ================================= 
@@ -135,12 +134,12 @@ img {
 	}
 
 	.logo {
-		width: 850px;
+		width: 750px;
 	}
 	
 		
 }
-@media (min-width: 1025px) {
+@media (min-width: 1250px) {
 
 	.main-header {
 		flex-direction: row;
