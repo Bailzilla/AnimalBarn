@@ -31,7 +31,7 @@ function goAdv() {
             document.getElementById("responseText").innerHTML = ("Artie may not do collars, but she is a willing follower in a walk around the block. She stalks 10 yards behind you, lurking from porch to porch.")  
             document.getElementById("response").src = "pics/Artie.jpg";
         } else if (loc == 3 && pet == 1){
-            document.getElementById("responseText").innerHTML = ("Dee is scared as she hears the bath water. She tries to run, but you are able to wrangle; eventually she calms down and enjoys the warm water.")  
+            document.getElementById("responseText").innerHTML = ("Dee is scared as she hears the bath water. She tries to run, but you are able to wrangle her; eventually she calms down and enjoys the warm water.")  
             document.getElementById("response").src = "pics/DeeBath.jpg";
         } else if (loc == 3 && pet == 2){
             document.getElementById("responseText").innerHTML = ("Dennis is hesitant at first, but he calms down once he feels the water. Good boy :)")  
