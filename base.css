@@ -4,7 +4,7 @@
 
 body {
 	font-family: 'Lily Script One', cursive;
-	line-height: 1.6;
+	line-height: 1.25;
 	color: #241715;
 	margin: 0;
 }
@@ -17,17 +17,12 @@ ul {
 p {
 	line-height: 10px;
 }
+
 h2,
 h3,
 a {
 	color: #294D4A;
-}
-h2,
-h3 {
-	margin-top: 0;
-}
-a {
-	text-decoration: none;
+	text-decoration: underline #241715; 
 }
 
 img {
@@ -36,7 +31,12 @@ img {
 	border: solid #241715;
 	border-radius: 20%;
 }
-
+#bodyTitle {
+	color: #294D4A;
+	text-align: center;
+	text-decoration: underline #241715;
+	font-size: 3rem;
+}
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -44,7 +44,7 @@ img {
 /* ---- Navigation ---- */
 
 .name {
-	font-size: 1.35em;
+	font-size: 1.35rem;
 	margin: 0;
 }
 .main-nav {
@@ -57,19 +57,15 @@ img {
 	padding: 10px 15px;
 }
 .main-nav a {
-	font-size: .95em;
 	color: #294D4A;
 }
+.name a:hover,
 .main-nav a:hover {
 	color: #FFAF87;
 }
 
 /* ---- Layout Containers ---- */
 
-.main-header {
-	padding-top: .5em;
-	padding-bottom: .5em;
-}
 .banner,
 .main-footer,
 .row {
@@ -78,18 +74,17 @@ img {
 .banner {
 	color: #241715;
 	background: #FFAF87;
-	padding: 3.2em 0;
-	margin-bottom: 48px;
+	padding: 1rem 0;
 	}
 .col {
-	padding-right: 1em;
-	padding-left: 1em;
-	
+	padding-right: 1rem;
+	padding-left: 1rem;
+	margin-top: 15px;
 	}
 .main-footer {
 	background: #9684A1;
 	color: #241715;;
-	padding: 2em 0;
+	padding: 2rem 0;
 	margin-top: 30px;
 }
 
@@ -106,14 +101,14 @@ img {
 .logo {
 	width: 80%;
 	cursor: pointer;
-	margin: 30px;
+	margin: 10px;
 	border: solid #241715;
 	border-radius: 15%;
 	
 }
 .headline {
 	margin-bottom: 0;
-	font-size: 3em;
+	font-size: 3rem;
 }
 
 
