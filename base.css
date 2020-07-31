@@ -116,7 +116,7 @@ img {
   Media Queries
 ==================================== */
 
-@media (min-width: 915px) {
+@media (min-width: 750px) {
 	
 	.main-header,
 	.main-nav
@@ -129,7 +129,7 @@ img {
 	}
 
 	.logo {
-		width: 750px;
+		width: 590px;
 	}
 	
 		
