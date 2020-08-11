@@ -3,13 +3,13 @@ const pets = [
     DOB: "June 6, 2015",
     toy: "Green Ball", 
     nicknames: "Baby Dee, Deandra, Deb",
-    img: "pics/DeeMain.jpg"
+    pic: "pics/DeeMain.jpg"
 },
 {   name: "Dennis",
     DOB: "June 6, 2015",
     toy: "Soccer Ball", 
     nicknames: "Big Boy, Denald, B-Bo",
-    img: "pics/DenMain.jpg"
+    pic: "pics/DenMain.jpg"
 
 },
 {
@@ -17,15 +17,14 @@ const pets = [
     DOB: "November 2, 2019",
     toy: "Sticks and Bones", 
     nicknames: "Cheese, Queso, Perrita, Quesita",
-    img: "pics/MacMain.jpg"
+    pic: "pics/MacMain.jpg"
 },
 {
     name: "Artemis",
     DOB: "Unknown",
     toy: "Anything I can fit in", 
     nicknames: "Artie, Meow-meow",
-    img: "pics/ArtieMain.jpg"   
+    pic: "pics/ArtieMain.jpg"   
 }
-
 ]
 
