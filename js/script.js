@@ -15,7 +15,7 @@ function goAdv() {
         } else if (loc == 1 && pet == 3){
             document.getElementById("responseText").innerHTML = ("Mac is cautiously excited. She paces back and forth from window to window in the backseat, absorbing everything that comes her way.")
             document.getElementById("response").src = "pics/Mac.jpg";
-        } else if (loc ==1 && pet == 4){
+        } else if (loc == 1 && pet == 4){
             document.getElementById("responseText").innerHTML = ("Artie is NOT happy with you. At a red light she cralwls into your lap and goes to the bathroom :/")  
             document.getElementById("response").src = "pics/ArtieCar.jpg";
         } else if (loc == 2 && pet == 1){
