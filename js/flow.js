@@ -6,8 +6,8 @@ for (let i=0; i<pets.length; i++) {
     <div class="col" id="${pet.id}">
     <img src="${pet.pic}" alt="picture of ${pet.name}">
     <h2>${pet.name}</h2>
-    <p><strong>DOB:</strong> ${pet.DOB}</p>
-    <p><strong>Nicknames:</strong> ${pet.nicknames}</p>
+    <p><strong>DOB:</strong> ${pet.birth}</p>
+    <p><strong>Nicknames:</strong> ${pet.nick}</p>
     <p><strong>Favorite Toy:</strong> ${pet.toy}</p>
     </div>
     `

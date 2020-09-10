@@ -1,7 +1,7 @@
 class Pet {
-    constructor(name,DOB,toy,nick,pic,id){
+    constructor(name,birth,toy,nick,pic,id){
         this.name = name
-        this.DOB = DOB
+        this.birth = birth
         this.toy = toy
         this.nick = nick
         this.pic = pic
