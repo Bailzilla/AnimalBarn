@@ -7,7 +7,7 @@ function goAdv() {
     let pet = document.getElementById('pet').value;
         
         if (loc == 1 && pet == 'dee'){
-             document.getElementById("responseText").innerHTML = ;
+             document.getElementById("responseText").innerHTML = "Great choice! Sweet Dee loves going for a ride, just be sure to crack the window so she can feel the breeze";
              document.getElementById("response").src = "pics/DeeRide.jpg";
         } else if (loc == 1 && pet == 'dennis'){
             document.getElementById("responseText").innerHTML =  ("As an ambulance siren goes by, Dennis begins to howl from the depth of his chest. Your ear drums are ratteld, but you ultimately walk away okay.")
