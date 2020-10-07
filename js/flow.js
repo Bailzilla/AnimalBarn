@@ -1,8 +1,7 @@
-let html = " ";
+let main = document.querySelector('main')
 
-for (let i=0; i<pets.length; i++) {
-    let pet = pets[i];
-    html += `
+pets.forEach (pet => {
+    main.innerHTML += `
     <div class="col" id="${pet.id}">
     <img src="${pet.pic}" alt="picture of ${pet.name}">
     <h2>${pet.name}</h2>
@@ -11,6 +10,5 @@ for (let i=0; i<pets.length; i++) {
     <p><strong>Favorite Toy:</strong> ${pet.toy}</p>
     </div>
     `
-}
+    })
 
-document.querySelector('main').insertAdjacentHTML('beforeend',html);
